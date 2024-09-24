@@ -15,7 +15,7 @@ String[] readFileFromURL(String inputURL){
     BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
     
     String line;
-    while((line = reader.readLine()) != null){  // TODO: Figure out a better way to count, rather than having to do this loop twice
+    while((line = reader.readLine()) != null){ 
       output.add(line);  
     }
         
