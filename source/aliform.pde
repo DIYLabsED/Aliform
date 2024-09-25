@@ -4,6 +4,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+final String repository = "https://raw.githubusercontent.com/DIYLabsED/aliform/refs/heads/main/"; 
+
 // Reads a file from a specified URL, puts it in a String array, and returns it
 String[] readFileFromURL(String inputURL){
   
@@ -32,8 +34,12 @@ String[] readFileFromURL(String inputURL){
     
 }
 
+
+
 void setup(){
   
-  printArray(readFileFromURL("https://raw.githubusercontent.com/DIYLabsED/aliform/refs/heads/main/test-files/text-single-word.txt"));
+  JSONObject j = loadJSONObject(repository + "test-files/json-files/single-json-file.json");
+  
+  print(j.getString("name"));
   
 }
