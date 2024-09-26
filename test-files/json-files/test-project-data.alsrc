@@ -5,7 +5,7 @@
 
   "list" : [
 
-    "https://raw.githubusercontent.com/DIYLabsED/aliform/refs/heads/main/test-project-file.aliform"
+    "repo" : "https://raw.githubusercontent.com/DIYLabsED/aliform/refs/heads/main/test-project-file.aliform"
 
   ]
 
