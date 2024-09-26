@@ -3,8 +3,4 @@
   "list_version" : 1,
   "list_status" : "prerelease",
 
-  "repos" : [
-    "url" : "https://raw.githubusercontent.com/DIYLabsED/aliform/refs/heads/main/test-project-file.aliform"
-  ]
-
 }
