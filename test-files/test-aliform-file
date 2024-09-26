@@ -1,0 +1,8 @@
+{
+  "identifier" : "aliform-loopback-testing",
+  "display_name" : "Aliform Loopback Testing",
+
+  "version" : "1.0.0"
+  "license" : "GNU GPL V3"
+  "status" : "stable"
+}
